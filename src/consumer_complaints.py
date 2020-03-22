@@ -11,7 +11,7 @@ from collections import Counter
 import math
 
 def sort(sub_li): 
-    return sorted(sub_li, key=lambda x: (x[0], x[1], x[2]))
+    return sorted(sub_li, key=lambda x: (x[1], x[0], x[2]))
 
 def rounding(n):
     if n- math.floor(n) >= 0.5:
